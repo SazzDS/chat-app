@@ -5,7 +5,7 @@ let bodyParser = require('body-parser');
 let database = require('./database/db');
 
 
-const userRoute = require('../server/routes/user.routes')
+const userRoute = require('./routes/user.routes')
 
 
 mongoose.Promise = global.Promise;
